@@ -1,0 +1,37 @@
+/* big tablet to laptop  */
+
+@media only screen and(max-width:1200px) {
+  .hero-text-box {
+    position: absolute;
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* small tablet to big tablet */
+
+@media only screen and(max-width:1023px) {
+  body {
+    font-size: 100%;
+  }
+  section {
+    padding: 60px 0;
+  }
+
+  /* h1 {
+    font-size: 16px;
+  } */
+}
+
+/* ipad */
+
+@media only screen and(max-width:467px) {
+}
+
+/* small phone */
+
+@media only screen and(max-width:480px) {
+}
